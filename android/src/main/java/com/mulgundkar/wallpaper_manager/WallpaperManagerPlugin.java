@@ -75,7 +75,7 @@ public class WallpaperManagerPlugin implements FlutterPlugin, MethodCallHandler 
 
     @Override
     public void onDetachedFromEngine(@NonNull FlutterPluginBinding binding) {
-        context = null;
+        //context = null;
     }
 
     @SuppressLint("MissingPermission")
